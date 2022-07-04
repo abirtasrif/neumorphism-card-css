@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Merienda", cursive;
+  text-align: center;
+  background-color: #bcbcbc;
+}
+
+.container {
+  width: 30%;
+  height: 85vh;
+  margin: 50px auto;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #a7a7a7, -5px -5px 10px #d3d3d3;
+}
+
+.photo {
+  border-radius: 10px;
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #a7a7a7, -5px -5px 10px #d3d3d3;
+  margin: 20px auto;
+}
+
+.card-details .name {
+  display: inline-block;
+  padding: 5px 10px;
+  box-shadow: 3px 3px 5px #a7a7a7, -3px -3px 5px #d3d3d3;
+  border-radius: 3px;
+}
+
+.card-details .name:hover {
+  box-shadow: 3px 3px 5px #a7a7a7 inset, -3px -3px 5px #d3d3d3 inset;
+}
+
+.card-details .title {
+  margin: 10px auto 7px auto;
+  display: inline-block;
+  padding: 5px 10px;
+  box-shadow: 3px 3px 5px #a7a7a7 inset, -3px -3px 5px #d3d3d3 inset;
+  border-radius: 3px;
+}
+
+.card-details .title:hover {
+  box-shadow: 3px 3px 5px #a7a7a7, -3px -3px 5px #d3d3d3;
+}
+
+.card-details .text {
+  margin: 10px 20px;
+  text-align: justify;
+}
+
+.card-details a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  margin-top: 10px;
+  box-shadow: 3px 3px 5px #a7a7a7, -3px -3px 5px #d3d3d3;
+  border-radius: 3px;
+  padding: 8px;
+}
+
+.card-details a:hover {
+  box-shadow: 3px 3px 5px #a7a7a7 inset, -3px -3px 5px #d3d3d3 inset;
+}
